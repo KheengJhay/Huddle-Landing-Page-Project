@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color :hsl(257, 40%, 49%); 
+    --primary-color2 :hsl(300, 69%, 71%); 
+    font-family: Arial;
+    color: white;
+}
+body{
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--primary-color);
+    object-fit: cover;
+}
+div.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 15px;
+}
+div.container > div.logo-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    margin: 40px 0 50px 0;
+}
+div.container > div.sub-container{
+    width: 90%;
+}
+div.container > div.logo-container > img.logo{
+    width: 40%;
+}
+div.container > div.sub-container > img.mockup{
+    width: 90%;
+}
+div.container > div.sub-container > div > div.text-container{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+div.container > div.sub-container > div > div.text-sub-container{
+    text-align: center;
+    width: 95%;
+}
+div.container > div.sub-container > div > div.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;;
+    margin: 20px 0 0 0;
+}
+div.container > div.sub-container > div > div.btn-container > button{
+    padding: 10px;
+    border-radius: 40rem;
+    outline: none;
+    border: none;
+    width: 70%;
+    color: var(--primary-color);
+}
+div.container > div.sub-container > div > div.btn-container > button:hover{
+    background-color: var(--primary-color2);
+    color: white;
+}
+i.fa.fa-facebook{
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px 0px 9px;
+    border: 1px solid white;
+    margin: 0 5px 0 5px;
+}
+i.fa.fa-twitter{
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px 0px 7px;
+    border: 1px solid white;
+    margin: 0 5px 0 5px;
+}
+i.fa.fa-instagram{
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 5px 0px 0px 7px;
+    border: 1px solid white;
+    margin: 0 5px 0 5px;
+}
+i.fa.fa-facebook:hover, i.fa.fa-twitter:hover, i.fa.fa-instagram:hover{
+    border: 1px solid var(--primary-color2);
+    color: var(--primary-color2);
+}
+div.socials{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+}
+footer{
+    text-align: center;
+    width: 90%;
+    margin: 0 0 40px 0;
+}

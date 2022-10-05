@@ -1,0 +1,65 @@
+/* Laptop Screen Size */
+@media only screen and (min-width: 1024px) {
+    body{
+        background-image: url(images/bg-desktop.svg);
+    }
+    div.container > div.logo-container{
+        margin: 25px 0 30px 0;
+    }
+    div.container > div.logo-container > img.logo{
+        width: 10%;
+    }
+    div.container > img.mockup{
+        width: 40%;
+        margin-right: 100px;
+    }
+    
+    div.container > div.sub-container{
+        display: flex;
+        flex-direction: row;
+    }
+    div.container > div.sub-container > div {
+        margin: 30px 0 0 50px;
+    }
+    div.container > div.sub-container > div > div.text-container{
+        text-align: left;
+        margin: 15px 0 20px 0;
+        font-size: 35px;
+        width: 500px;
+    }
+    div.container > div.sub-container > div > div.text-sub-container{
+        text-align: left;
+        width: 95%;
+        font-size: 20px;
+    }
+    div.container > div.sub-container > div > div.btn-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start ;
+        width: 100%;
+        margin: 20px 0 0 0;
+    }   
+    div.container > div.sub-container > div > div.btn-container > button{
+        padding: 10px;
+        border-radius: 40rem;
+        outline: none;
+        border: none;
+        width: 30%;
+        color: var(--primary-color);
+        height: 45px;
+    }
+    div.container > div.sub-container > div > div.btn-container > button:hover{
+        background-color: var(--primary-color2);
+        color: white;
+    }
+    div.socials{
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin: 40px 200px 20px 0;
+    }
+    i.fa.fa-instagram{
+        margin: 0 60px 0 5px;
+    }
+}
